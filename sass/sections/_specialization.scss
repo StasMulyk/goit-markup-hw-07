@@ -1,4 +1,4 @@
-.specialization-title {
+.specialization__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -8,24 +8,24 @@
   margin-bottom: 50px;
 }
 
-.specialization-list {
+.specialization__list {
   display: flex;
   justify-content: center;
 }
 
-.specialization-item {
+.specialization__item {
   position: relative;
 }
 
-.specialization-item:not(:last-child) {
+.specialization__item:not(:last-child) {
   margin-right: 30px;
 }
-.specialization-img {
+.specialization__img {
   display: block;
   height: auto;
   width: 370;
 }
-.specialization-text {
+.specialization__text {
   position: absolute;
   bottom: 0;
   display: flex;

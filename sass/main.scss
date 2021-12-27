@@ -3,14 +3,16 @@
 @import "./components/container";
 @import "./utils/hidden";
 @import "./components/common";
+@import "./components/logo";
+@import "./components/social";
 @import "./components/modal";
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/advantages";
-@import "./layout/specialization";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/portfolio_filter";
-@import "./layout/portfolio_example";
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/advantages";
+@import "./sections/specialization";
+@import "./sections/team";
+@import "./sections/clients";
+@import "./sections/footer";
+@import "./sections/portfolio_filter";
+@import "./sections/portfolio_example";
