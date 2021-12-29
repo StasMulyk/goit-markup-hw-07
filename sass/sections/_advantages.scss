@@ -14,9 +14,9 @@
   justify-content: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-}
-.advantages__icon-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .advantages__list {
   display: flex;

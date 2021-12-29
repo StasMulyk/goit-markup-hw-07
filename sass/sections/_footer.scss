@@ -7,9 +7,12 @@
 .footer__list {
   margin-top: 20px;
 }
-.footer__item:not(:last-child) {
-  margin-bottom: 9px;
+.footer__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
+
 .footer__address {
   font-family: Roboto;
   font-style: normal;
@@ -96,10 +99,10 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 .telegram__icon {
   margin-left: 10px;
-}
-.telegram__btn:focus {
-  background-color: #188ce8;
 }
